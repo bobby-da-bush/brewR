@@ -1,0 +1,13 @@
+Package: brewR
+Title: An all-in-one R package for managing the brewing process
+Version: 0.0.0.9000
+Authors@R: 
+    person("bob", "bush", , "robert.j.mosley1@gmail.com", role = c("aut", "cre"))
+Description: This package is intended to provide access to the most common mathematical and statistical calculations encountered during the brewing process with an intuitive interface.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 2.10)
+LazyData: true
