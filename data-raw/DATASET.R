@@ -20,6 +20,7 @@ r_obj <- lapply(.files, xml2::read_xml)
 names(r_obj) <- .examples
 
 list2env(r_obj, envir = .GlobalEnv)
+rm(r_obj)
 
 for(obj in ls()) {
   eval(bquote(use_data(.(as.name(obj)), overwrite = TRUE)))
